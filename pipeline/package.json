@@ -1,0 +1,20 @@
+{
+  "name": "mit-ready-research",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "aggregate": "node aggregate_data.mjs",
+    "audit": "node audit_expanded_dataset.mjs",
+    "qa": "node qa_data.mjs",
+    "results": "node generate_results.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "csv-parse": "^7.0.1",
+    "pdf-parse": "^2.4.5"
+  }
+}
